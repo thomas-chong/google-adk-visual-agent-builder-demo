@@ -1,0 +1,8 @@
+name: research_loop_agent
+agent_class: LoopAgent
+description: Iteratively refines search queries and executes searches until a
+  satisfactory answer is found or max iterations are reached.
+sub_agents:
+  - config_path: ./query_refinement_agent.yaml
+  - config_path: ./search_execution_agent.yaml
+max_iterations: 3

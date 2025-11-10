@@ -1,0 +1,9 @@
+name: root_research_agent
+model: gemini-2.5-flash
+agent_class: LlmAgent
+description: The main agent that delegates to the iterative research loop.
+instruction: You are a helpful assistant. Your main task is to delegate complex
+  research queries to the 'Research_Loop_Agent' and synthesize its findings.
+sub_agents:
+  - config_path: ./research_loop_agent.yaml
+tools: []

@@ -1,0 +1,11 @@
+name: search_execution_agent
+model: gemini-2.5-flash
+agent_class: LlmAgent
+description: Executes Google Search with the refined query and processes the results.
+instruction: You are a Google Search executor. Take the provided search query
+  and use the 'google_search' tool to retrieve information. Summarize the key
+  findings from the search results to inform the query refinement process or
+  provide an answer.
+sub_agents: []
+tools:
+  - name: google_search
