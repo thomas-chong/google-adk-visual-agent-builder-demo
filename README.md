@@ -7,7 +7,7 @@
 
 A complete demonstration of Google ADK's Visual Agent Builder, showcasing how to build complex multi-agent systems through natural language conversation with an AI Assistant. This research agent uses Google Search with a LoopAgent pattern for iterative query refinement.
 
-**📝 Blog Post**: [Building AI Agents Visually with Google ADK Visual Agent Builder](https://medium.com/@YOUR_USERNAME/building-ai-agents-visually-with-google-adk)
+**📝 Blog Post**: [Building AI Agents Visually with Google ADK Visual Agent Builder](https://medium.com/@chongcht/building-ai-agents-visually-with-google-adk-visual-agent-builder-bb441e59a78c)
 
 ---
 
